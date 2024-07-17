@@ -61,20 +61,18 @@ body {
   width: 100px;
   height: 100px;
 }
+.mediad{
+  display: none;
+}
 @media screen and (max-width: 600px) {
-  #score{
-    font-size: 80px;
-    top: 100px;
-  }
-  #highscore{
-    font-size: 50px;
-    top: 200px;
-  }
-  #title{
-    top: 10px;
-    left: 22px;
-    font-size: 100px;
-    text-align: center;
-    width: 1000px;
-  }
+ .body{
+  display: none;
+ }
+ body{
+  background: none;
+ }
+ .mediad{
+  display: block;
+  font-size: 100px;
+ }
 }
